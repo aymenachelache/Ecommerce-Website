@@ -14,6 +14,7 @@ html {
 /* Global Styles */
 :root {
     --main-transition: 0.3s;
+    --primary-color: #088178;
 }
 a {
     text-decoration: none;
@@ -100,7 +101,7 @@ button.normal {
 }
 .header ul li a:hover,
 .header ul li a.active {
-    color: #088178;
+    color: var(--primary-color);
 }
 .header ul li a.active::before,
 .header ul li a::before {
@@ -108,7 +109,7 @@ button.normal {
     position: absolute;
     width: 30%;
     height: 2px;
-    background-color: #088178;
+    background-color: var(--primary-color);
     left: 20px;
     bottom: -4px;
 }
@@ -177,7 +178,7 @@ button.normal {
         color: #000;
     }
     .header .mobile i.shop:hover {
-        color: #088178;
+        color: var(--primary-color);
     }
 }
 /* Strat Home */
@@ -207,7 +208,7 @@ button.normal {
     padding-bottom: 15px;
 }
 .hero .info h1 {
-    color: #088178;
+    color: var(--primary-color);
 }
 .hero .info button {
     border: none;
@@ -215,7 +216,7 @@ button.normal {
     background-image: url('img/button.png');
     background-repeat: no-repeat;
     background-color: transparent;
-    color: #088178;
+    color: var(--primary-color);
     font-size: 15px;
     font-weight: bold;
     background-position: 40% 40%;
@@ -267,7 +268,7 @@ button.normal {
     padding: 9px 8px 6px 8px;
     line-height: 1;
     border-radius: 4px;
-    color: #088178;
+    color: var(--primary-color);
     background-color: #fddde4;
     user-select: none;
 }
@@ -337,7 +338,7 @@ button.normal {
     padding-top: 7px;
     font-size: 15px;
     font-weight: 700;
-    color: #088178;
+    color: var(--primary-color);
 }
 .products .pro .card {
     width: 40px;
@@ -346,7 +347,7 @@ button.normal {
     border-radius: 50px;
     background-color: #e8f6ea;
     font-weight: bolder;
-    color: #088178;
+    color: var(--primary-color);
     border: 1px solid #cce7d0;
     display: flex;
     justify-content: center;
@@ -392,7 +393,7 @@ button.normal {
 }
 .banner button:hover {
     color: #fff;
-    background-color: #088178;
+    background-color: var(--primary-color);
 }
 
 /* Start SM Banner */
@@ -465,8 +466,8 @@ button.normal {
     transition: var(--main-transition) ease;
 }
 .sm-banner .banner-box button:hover {
-    background-color: #088178;
-    border: 1px solid #088178;
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
 }
 
 /* Start banner 3 */
@@ -604,7 +605,7 @@ button.normal {
     border: none;
     outline: none;
     transition: var(--main-transition) ease;
-    background-color: #088178;
+    background-color: var(--primary-color);
     color: #fff;
     white-space: nowrap;
 }
@@ -650,10 +651,10 @@ footer .follow i {
 }
 footer .follow i:hover,
 footer a:hover {
-    color: #088178;
+    color: var(--primary-color);
 }
 footer .row img {
-    border: 1px solid #088178;
+    border: 1px solid var(--primary-color);
     border-radius: 6px;
     margin: 10px 0 15px;
     cursor: pointer;
@@ -691,7 +692,7 @@ footer .copyright {
 }
 .pagination a {
     text-decoration: none;
-    background-color: #088178;
+    background-color: var(--primary-color);
     padding: 15px 20px;
     border-radius: 6px;
     color: #fff;
@@ -772,7 +773,7 @@ footer .copyright {
     outline: none;
 }
 .prodetails .single-pro-details button {
-    background-color: #088178;
+    background-color: var(--primary-color);
     color: #fff;
     border-radius: 6px;
 }
@@ -853,7 +854,7 @@ footer .copyright {
     position: relative;
 }
 .blog .blog-box .blog-details a:hover {
-    color: #088178;
+    color: var(--primary-color);
 }
 .blog .blog-box .blog-details a::after {
     content: "";
@@ -865,7 +866,7 @@ footer .copyright {
     background-color: #000;
 }
 .blog .blog-box .blog-details a:hover::after {
-    background-color: #088178;
+    background-color: var(--primary-color);
 }
 .blog .blog-box h1 {
     position: absolute;
@@ -987,7 +988,7 @@ footer .copyright {
 }
 .form-details form button.normal {
     width: fit-content;
-    background-color: #088178;
+    background-color: var(--primary-color);
     color: #fff;
 }
 @media (max-width: 900px) {
@@ -1102,7 +1103,7 @@ footer .copyright {
 }
 .cart-add button.normal {
     padding: 12px 20px;
-    background-color: #088178;
+    background-color: var(--primary-color);
     color: #fff;
 }
 @media (max-width: 767px) {
